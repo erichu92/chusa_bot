@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>robot_base</name>
+  <version>0.1.0</version>
+  <description>The chusa_bot robot_base package</description>
+
+  <maintainer email="theorose49@gmail.com">Jaeho Choi</maintainer>
+  <maintainer email="erichu92@gmail.com">Moonhyuk Hur</maintainer>
+
+  <license>TODO</license>
+
+  <author email="theorose49@gmail.com">Jaeho Choi</author>
+  <author email="erichu92@gmail.com">Moonhyuk Hur</author>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+
+  </export>
+</package>

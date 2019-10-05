@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node name="tilt_lidar_node"  pkg="tilt_lidar"  type="sensing_3d_node" output="screen"/>
+  <node name="laser_2d_scan_node" pkg="laser_2d_scan" type="laser_2d_scan_node" output="screen"/>
+  <node name="laser_scan_assembler" pkg="laser_assembler" type="laser_scan_assembler" output="screen">
+    <param name="fixed_frame" value="laser"/>
+  </node>
+  <node name="pointcloud2_assembler" pkg="tilt_lidar" type="assemble_pointcloud2_node" output="screen"/>
+  
+</launch>

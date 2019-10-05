@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+  <param name="robot_description" textfile="$(find robot_base)/urdf/chusa_bot.urdf"/>
+  
+  <node name="joint_state_pub" pkg="joint_state_publisher" type="joint_state_publisher"/>
+
+  <node name="robot_state_pub" pkg="robot_state_publisher" type="state_publisher"/>
+
+</launch>

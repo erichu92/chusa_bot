@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node name="step_motor"   pkg="motor_controller"  type="step_motor_node" output="screen"/>
+  <node name="tilt_motor"   pkg="motor_controller"  type="tilt_motor_node" output="screen"/>
+
+</launch>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node name="octomap_server_node"  pkg="octomap_server"  type="octomap_server_node" output="screen">
+    <param name="frame_id" value="map"/>
+    <param name="base_frame_id" value="laser"/>
+    <param name="resolution" value="0.03"/>
+    <param name="sensor_model/max_range" value="8.0"/>
+    <param name="pointcloud_min_z" value="0.1"/>
+    <param name="occupancy_min_z" value="0.1"/>
+  </node>
+  
+</launch>

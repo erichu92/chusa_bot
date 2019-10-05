@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+  <include file="$(find launch_chusa)/launch/tilt_lidar.launch"/>
+  <include file="$(find launch_chusa)/launch/odometry.launch"/>
+  <include file="$(find launch_chusa)/launch/gmapping.launch"/>
+  <!--include file="$(find launch_chusa)/launch/navigation.launch"/-->
+
+</launch>

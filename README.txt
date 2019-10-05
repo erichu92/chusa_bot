@@ -31,7 +31,7 @@ Materials
 About Codes
 
 
-Raspberry Pi
+- Raspberry Pi
 
 /chusa_bringup
 
@@ -75,7 +75,7 @@ This code for stepper motor which is using for driving. This subscribe driving c
 
 ------------------------------
 
-PC
+- PC
 
 In the Laptop, we do a lot of computation.
 
@@ -103,7 +103,7 @@ This node convert velocity to pulse for stepper motor.
 
 ------------------------------
 
-Arduino
+- Arduino
 
 /arduino/accelstep_final
 
